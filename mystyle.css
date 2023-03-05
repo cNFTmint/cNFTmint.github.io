@@ -1,0 +1,237 @@
+html {
+    background-color: #161522;
+    color:white;
+  }
+
+body{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+header {
+    display:flex;
+    padding:1em;
+    align-items: center;
+    justify-content:center;
+}
+
+.marginright30 {
+    margin-right:30px;
+}
+nav{
+    display:flex;
+    gap: 2em;
+}
+
+.lobsterflex {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+img{
+    
+    max-width:100%;
+    height:auto;
+}
+
+.box {
+
+}
+
+.aboutusflex {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.size30{
+    font-size:30px;
+}
+.size15{
+    font-size:15px;
+}
+.size20{
+    font-size:20px;
+
+}
+.size25{
+    font-size:25px;
+}
+.maxwidth900{
+    max-width:900px;
+
+}
+.maxwidth400{
+    max-width:400px;
+
+}
+.maxwidth300{
+    max-width:300px;
+}
+.maxwidth100{
+    max-width:100px;
+}
+.aboutwidth{
+    max-width:800px;
+    margin: 0 auto;
+}
+
+
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.gradient-animation {
+    background: linear-gradient(to right, #d64588, #33b0fa, #c5565b);
+    background-size: 1200% 100%;
+    animation: gradient-animation 30s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.button {
+    background: linear-gradient(to right, #167c8c, #27a35d);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease-out;
+    display:inline-block;
+}
+
+.button:hover {
+    transform: translateX(10px);
+}
+
+.card {
+    /*background-color:#1d1b2e;*/
+    border-radius:20px;
+    padding:30px;
+    font-size:20px;
+    margin-top:20px;
+    transition: transform 0.3s ease-out;
+    
+    
+}
+.card:hover {
+    transform: translateX(10px);
+    
+}
+
+.cardflex {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:2em;
+
+}
+.box-wide{
+    flex-basis:100%;
+}
+
+#lobtext{
+    font-size:70px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color:green;
+}
+
+.formflex{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.margintop20{
+    margin-top:20px;
+}
+
+.margintop50{
+    margin-top:50px;
+}
+form{
+    font-size:20px;
+    margin-top:20px;
+}
+
+input{
+    border-radius: 5px;
+    font-size:20px;
+    
+}
+
+input[type="text"]{
+    padding:15px;
+    background-color:#02e3d5;
+    border:none;
+    
+}
+
+input[type="text"]:focus{
+
+    background-color:#86fff7;
+    outline:none;
+}
+
+input[type="email"]{
+    padding:15px;
+    background-color:#02e3d5;
+    border:none;
+}
+
+input[type="email"]:focus{
+
+    outline:none;
+    background-color:#86fff7;
+}
+
+textarea{
+    padding:15px;
+    background-color:#02e3d5;
+    border:none;
+    border-radius: 5px;
+    font-size:20px;
+}
+
+textarea:focus{
+
+    outline:none;
+    background-color:#86fff7;
+}
+
+.formcard {
+    background-color:#1d1b2e;
+    border-radius:20px;
+    padding:30px;
+    font-size:20px;
+    margin-top:20px;
+    
+    
+}
+
+form button{
+    font-size:15px;
+}
