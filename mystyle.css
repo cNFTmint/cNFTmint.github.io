@@ -180,6 +180,8 @@ form{
 input{
     border-radius: 5px;
     font-size:20px;
+    box-sizing: border-box;
+    width:100%;
     
 }
 
@@ -187,6 +189,8 @@ input[type="text"]{
     padding:15px;
     background-color:#02e3d5;
     border:none;
+    
+    
     
 }
 
@@ -214,6 +218,8 @@ textarea{
     border:none;
     border-radius: 5px;
     font-size:20px;
+    width:100%;
+    box-sizing: border-box;
 }
 
 textarea:focus{
@@ -228,6 +234,9 @@ textarea:focus{
     padding:30px;
     font-size:20px;
     margin-top:20px;
+    width:100%;
+    max-width:500px;
+
     
     
 }
